@@ -3502,21 +3502,6 @@ input, select, textarea {
 				height: 3.5em;
 			}
 
-		#banner video {
-			-moz-transform: translateX(50%) translateY(50%);
-			-webkit-transform: translateX(50%) translateY(50%);
-			-ms-transform: translateX(50%) translateY(50%);
-			transform: translateX(50%) translateY(50%);
-			position: absolute;
-			bottom: 50%;
-			right: 50%;
-			width: auto;
-			height: auto;
-			min-width: 100%;
-			min-height: 100%;
-			overflow: hidden;
-		}
-
 		#banner:before {
 			-moz-transition: opacity 3s ease;
 			-webkit-transition: opacity 3s ease;
@@ -3536,14 +3521,6 @@ input, select, textarea {
 			top: 0;
 			width: 100%;
 			z-index: 1;
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			#banner video {
-				display: none;
-			}
-
 		}
 
 		@media screen and (max-width: 736px) {
