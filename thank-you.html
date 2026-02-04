@@ -5,106 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You!</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <style>
-        /* Override for centered content */
-        body {
-            background-color: #333333;
-            color: #8e8e8e;
-            font-family: "Roboto", Helvetica, sans-serif;
-            font-size: 16pt;
-            line-height: 1.65;
-            padding: 4rem 1rem;
-            text-align: center;
-        }
-
-        .thank-you-container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 2rem;
-            background-color: rgba(255, 255, 255, 0.05);
-            border-radius: 4px;
-            border: solid 1px #eaeaea;
-        }
-
-        h1 {
-            font-family: "Oswald", sans-serif;
-            font-size: 2.5em;
-            letter-spacing: 0.25em;
-            text-transform: uppercase;
-            color: #84dbbd;
-            margin-bottom: 1rem;
-        }
-
-        p {
-            margin: 1rem 0 2rem 0;
-            font-size: 1em;
-        }
-
-        .button {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 0.75rem 2rem;
-            font-size: 0.8em;
-            font-weight: 500;
-            letter-spacing: 0.25em;
-            text-transform: uppercase;
-            text-decoration: none;
-            border-radius: 4px;
-            border: solid 2px #eaeaea;
-            color: #8e8e8e;
-            transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-        }
-
-        .button:hover {
-            background-color: rgba(132, 219, 189, 0.25);
-            color: #84dbbd;
-            border-color: #84dbbd;
-        }
-
-        .button.primary {
-            background-color: #84dbbd;
-            color: #ffffff !important;
-            border: none;
-        }
-
-        .button.primary:hover {
-            background-color: #70d5b2;
-            color: #ffffff !important;
-        }
-
-        @media screen and (max-width: 736px) {
-            body {
-                padding: 2rem 1rem;
-            }
-            h1 {
-                font-size: 1.5em;
-            }
-            .thank-you-container {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body class="is-preload">
+
+    <!-- Page Wrapper -->
     <div id="page-wrapper">
+
+        <!-- Header -->
         <header id="header">
             <a href="index.html" class="logo">C O R D E E <span></span></a>
         </header>
 
-        <div class="inner">
-            <div class="thank-you-container">
-                <h1>Thank You!</h1>
-                <p>We’ve received your message and will get back to you within 24–48 hours.</p>
-                <p>Your insights matter — we’re excited to explore how we can help your team thrive.</p>
-                <a href="index.html" class="button primary">Return to Homepage</a>
-            </div>
+        <!-- Wrapper for main content -->
+        <div id="wrapper">
+
+            <!-- Thank You Section -->
+            <section class="main special" style="min-height: 70vh; display: flex; align-items: center; justify-content: center;">
+                <div class="inner">
+                    <header>
+                        <h2>Thank You!</h2>
+                    </header>
+                    <p>Your input is already appreciated. <br> We've received your message and will get back to you soon.</p>
+                    <ul class="actions special">
+                        <li><a href="index.html" class="button primary large">Return to Homepage</a></li>
+                    </ul>
+                </div>
+            </section>
+
         </div>
 
+        <!-- Footer -->
         <footer id="footer">
             <div class="inner">
                 <p class="copyright">&copy; cordee, 2026</p>
             </div>
         </footer>
+
     </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
 </body>
 </html>
